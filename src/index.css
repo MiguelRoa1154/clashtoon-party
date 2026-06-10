@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Space+Grotesk:wght@500;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-display), var(--font-sans);
+  background-color: #5B21B6;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* Custom styles for Clashtoon style UI components */
+.cartoon-shadow-pink {
+  box-shadow: 0 4px 0 0 #be185d;
+}
+.cartoon-shadow-blue {
+  box-shadow: 0 4px 0 0 #1d4ed8;
+}
+.cartoon-shadow-yellow {
+  box-shadow: 0 4px 0 0 #b45309;
+}
+.cartoon-shadow-green {
+  box-shadow: 0 4px 0 0 #047857;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}

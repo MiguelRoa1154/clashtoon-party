@@ -1,0 +1,6 @@
+{
+  "name": "Clashtoon Party Portal",
+  "description": "An interactive multi-role game design suite, sandbox board simulator, and live concept portal for Clashtoon Party.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
